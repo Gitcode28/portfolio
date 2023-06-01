@@ -5,7 +5,7 @@
   font-family: 'Poppins',sans-serif;
 }
 :root{
-  --backcolor:#fcc200;
+  --backcolor:red;
   --textcolor:#282a3a;
 }
 .container{
@@ -65,6 +65,11 @@ margin: 10px;
   transition: 0.5s ease;
 
 }
+.container button a{     
+  text-decoration: none;
+  color: white;
+}
+
 .container .nav button:hover{
   background: #ffff;
   color: var(--textcolor);
@@ -89,7 +94,7 @@ margin: 10px;
   color: var(--textcolor);
 
 }
-.container .content .details h5{
+.container .content .details h3{
   margin-top: 15px ;
   font-size: 16px;
   color: var(--backcolor);
@@ -123,7 +128,7 @@ margin: 10px;
 .container .content .img{
   width: 350px;
   height: 350px;
-  background: url(/image1.jpeg);
+  background: url(/image/pic2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
@@ -152,6 +157,7 @@ margin: 10px;
        padding: 20px 50px;
        flex-direction: column-reverse;
        text-align: center;
+       color: white;
    }
    .footer 
 {
